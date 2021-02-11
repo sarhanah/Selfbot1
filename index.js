@@ -40,7 +40,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:Ownerbot\n'
             + 'ORG:Creator SELF BOT;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285959375675:+62 877-7545-2636\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6285719448074:+62 857-1944-8074\n'
             + 'END:VCARD'
 prefix = '!'
 blocked = []            
@@ -162,7 +162,7 @@ hafizh.on('group-participants-update', async (anu) => {
 				}
 			}
 			const botNumber = hafizh.user.jid
-			const ownerNumber = ["6285959375675@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["6285719448074@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? tod.participant : tod.key.remoteJid
 			const groupMetadata = isGroup ? await hafizh.groupMetadata(from) : ''
